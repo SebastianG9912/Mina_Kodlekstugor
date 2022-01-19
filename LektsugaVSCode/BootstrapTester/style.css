@@ -1,0 +1,31 @@
+.upperCard{
+    margin: 0;
+    background-color: #3f3f3f;
+    width: 100%;
+    height: fit-content;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin: 50px auto;
+}
+
+.outer{
+
+    height: 270px;
+    width: 200px;
+    background-color: aquamarine;
+    margin: auto;
+    position: relative;
+    margin: 50px auto;
+}
+
+.inn{
+    width: 100%;
+    background-color: brown;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+}

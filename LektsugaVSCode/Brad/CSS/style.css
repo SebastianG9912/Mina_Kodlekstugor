@@ -1,0 +1,79 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(126, 126, 126);
+    margin: 0;
+}
+
+.header{
+    background-color: rgb(66, 68, 100);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.header h1{
+    color: rgb(240, 240, 240);
+    margin: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+}
+
+.headerList{
+    padding: 30px;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+.headerList a{
+    color:beige;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.intro{
+    width: 600px;
+    height: 100%;
+    background-color: rgb(155, 155, 155);
+    margin: auto;
+    border-radius: 10px;
+    padding: 0 50px 0 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+
+/*.button{
+    background-color: rgb(152, 188, 255);
+    border-radius: 5px;
+    display: block;
+    text-decoration: none;
+    padding: 10px 50px;
+    margin-bottom: 20px;
+    color:rgb(0, 0, 0);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}*/
+
+/*.button::after{
+
+}
+
+.button:hover::after{
+    transform: scale(1.1);
+    transition: all 0.3s ease-out;
+    opacity: 5;
+}*/
+
+.button:after {
+    content: "Click Here!";
+    position: relative;
+    opacity: 0;
+    top: -20px;
+    -webkit-transition: all 3s;
+    transition: all 3s;
+}
+.button:hover:after {
+    opacity: 1;
+    top: 0px;
+}
