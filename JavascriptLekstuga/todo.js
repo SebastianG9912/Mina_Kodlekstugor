@@ -37,33 +37,11 @@ const newTask = "gå ut med hunden";
 addNewItem(newTask);
 console.log(todo);
 
-/*const userName = prompt("What is your name?");
-alert("Welcome " + userName);
-const correctName = confirm("Is your name correct?");
-if (!correctName) alert("Sorry!");*/
-
-addNewItem(prompt("What is your new task?"));
-
-let allTodos = "";
-for (let i = 0; i < todo.length; i++) {
-  allTodos += i + 1 + ". " + todo[i].text + ", Done: " + todo[i].isDone + "\n";
-}
-alert(allTodos);
-
-const userPick = prompt("Välj 1 eller 2");
-if (userPick == 1) {
-  addNewItem(prompt("What is your new task?"));
-} else if (userPick == 2) {
-  checkOffTodo(prompt("what number is the todo to check off?"));
-} else {
-  alert("illegal answer");
-}
-
 function checkOffTodo(nmbr) {
   if (nmbr < 1 || nmbr > todo.length) {
     alert("illegal input of index!");
     return;
   }
   todo[nmbr - 1].isDone = true;
+  console.log(todo);
 }
-console.log(todo);

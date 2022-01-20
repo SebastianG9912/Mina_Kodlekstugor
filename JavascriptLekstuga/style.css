@@ -1,0 +1,31 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(77, 77, 77);
+}
+
+.todo-Box {
+  background-color: #d8d8d8;
+  width: fit-content;
+  margin: auto;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+}
+
+.todo-List {
+  padding: 10px 10px 10px 10px;
+}
+
+.todo-Item {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  font-size: larger;
+  justify-content: space-between;
+}
+
+.todo-Item input {
+  width: 20px;
+  height: 20px;
+}
