@@ -6,11 +6,29 @@
     <link rel="stylesheet" href="css/site.css" />
 </head>
 <body>
-<h1 id="displayTime"></h1>
+<h1 id="displayTimeV1"></h1>
+<h1 id="displayTimeV2"></h1>
+<!--<script src="js/site.js" asp-append-version="true"></script>-->
+<!--<script type="text/javascript">
+    getTimeV1();
+    getTimeV2();
+</script>-->
+<script type="module">
+    async function getTimeV1() {
+        const result = await fetch("/api/clock");
+        const json = await result.json();
 
-<script src="js/site.js" asp-append-version="true"></script>
-<script type="text/javascript">
-    getTime();
+        document.getElementById("displayTimeV1").innerHTML = json.time;
+    }
+    setInterval(getTimeV1, 1000);
+
+    async function getTimeV2() {
+        const result = await  fetch("/api/v1.2/clock");
+        const json = await result.json();
+
+        document.getElementById("displayTimeV2").innerHTML = `${json.day}/${json.month} ${json.hour}:${json.minute}:${json.second}`;
+    }
+    setInterval(getTimeV2, 1000);
 </script>
 </body>
 </html>

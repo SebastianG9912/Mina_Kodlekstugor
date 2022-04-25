@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "iCnfrDR1BKFtSE46rNHmF+ZmpAYPl9ndmPhnk7zKV07pckQfZmI0vWC4hHSK4D8+/62D9c8bL6sESAPKAl+P5A==",
+  "dgSpecHash": "ya7/Od/uqluTSna9yBnqZyLVm0GCYJ/SQPifczrjizb6MIbnCQo0Cslx2p1G6MNJy30d81NNgDYuSkok/NsYAg==",
   "success": true,
   "projectFilePath": "C:\\Users\\sebgu\\source\\repos\\Mina_Kodlekstugor\\LekstugaWEBAPI\\TimeClock\\TimeClock\\TimeClock.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\sebgu\\.nuget\\packages\\microsoft.aspnet.webapi.versioning\\4.1.1\\microsoft.aspnet.webapi.versioning.4.1.1.nupkg.sha512",
+    "C:\\Users\\sebgu\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.0.0\\microsoft.aspnetcore.mvc.versioning.5.0.0.nupkg.sha512",
     "C:\\Users\\sebgu\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\sebgu\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\sebgu\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
@@ -12,5 +14,16 @@
     "C:\\Users\\sebgu\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.3.1\\swashbuckle.aspnetcore.swaggergen.6.3.1.nupkg.sha512",
     "C:\\Users\\sebgu\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.3.1\\swashbuckle.aspnetcore.swaggerui.6.3.1.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.WebApi.Versioning 4.1.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.WebApi.Versioning",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

@@ -27,3 +27,5 @@ C:\Users\sebgu\source\repos\Mina_Kodlekstugor\LekstugaWEBAPI\TimeClock\TimeClock
 C:\Users\sebgu\source\repos\Mina_Kodlekstugor\LekstugaWEBAPI\TimeClock\TimeClock\obj\Debug\net6.0\TimeClock.pdb
 C:\Users\sebgu\source\repos\Mina_Kodlekstugor\LekstugaWEBAPI\TimeClock\TimeClock\obj\Debug\net6.0\TimeClock.genruntimeconfig.cache
 C:\Users\sebgu\source\repos\Mina_Kodlekstugor\LekstugaWEBAPI\TimeClock\TimeClock\bin\Debug\net6.0\TimeClock.staticwebassets.runtime.json
+C:\Users\sebgu\source\repos\Mina_Kodlekstugor\LekstugaWEBAPI\TimeClock\TimeClock\bin\Debug\net6.0\Microsoft.AspNet.WebApi.Versioning.dll
+C:\Users\sebgu\source\repos\Mina_Kodlekstugor\LekstugaWEBAPI\TimeClock\TimeClock\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll
