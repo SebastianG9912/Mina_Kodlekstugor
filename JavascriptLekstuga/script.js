@@ -89,3 +89,30 @@ function todos_To_HTML(todo_Text) {
     </li>`
   );
 }
+
+let calculationPromise = new Promise((resolve, reject) => {
+  // resolve händer inte förrän användaren klickar
+  document.getElementById("btn").onclick = function () {
+    const aInput = document.getElementById("a");
+    const bInput = document.getElementById("b");
+
+    if (aInput.value === "" || bInput.value === "") {
+      reject(new Error("Missing values!"));
+    }
+
+    let a = parseInt(aInput.value);
+    let b = parseInt(bInput.value);
+
+    let calculation = a + b;
+    resolve(calculation);
+  };
+});
+
+calculationPromise
+  .then((calculation) => {
+    alert(`a + b = ${calculation}`);
+  })
+  // gör .catch() när något gått snett
+  .catch((error) => {
+    alert(error);
+  });

@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "zOvZqeY2rUmOolzrHyXqq/l3Jj3V9bibamt6cJqbC0s=",
+  "Source": "TimeClock",
+  "BasePath": "_content/TimeClock",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "TimeClock\\wwwroot",
+      "Source": "TimeClock",
+      "ContentRoot": "C:\\Users\\sebgu\\source\\repos\\Mina_Kodlekstugor\\LekstugaWEBAPI\\TimeClock\\TimeClock\\wwwroot\\",
+      "BasePath": "_content/TimeClock",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\sebgu\\source\\repos\\Mina_Kodlekstugor\\LekstugaWEBAPI\\TimeClock\\TimeClock\\wwwroot\\css\\site.css",
+      "SourceId": "TimeClock",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sebgu\\source\\repos\\Mina_Kodlekstugor\\LekstugaWEBAPI\\TimeClock\\TimeClock\\wwwroot\\",
+      "BasePath": "_content/TimeClock",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\sebgu\\source\\repos\\Mina_Kodlekstugor\\LekstugaWEBAPI\\TimeClock\\TimeClock\\wwwroot\\index.html",
+      "SourceId": "TimeClock",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sebgu\\source\\repos\\Mina_Kodlekstugor\\LekstugaWEBAPI\\TimeClock\\TimeClock\\wwwroot\\",
+      "BasePath": "_content/TimeClock",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\sebgu\\source\\repos\\Mina_Kodlekstugor\\LekstugaWEBAPI\\TimeClock\\TimeClock\\wwwroot\\js\\site.js",
+      "SourceId": "TimeClock",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sebgu\\source\\repos\\Mina_Kodlekstugor\\LekstugaWEBAPI\\TimeClock\\TimeClock\\wwwroot\\",
+      "BasePath": "_content/TimeClock",
+      "RelativePath": "js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
+    }
+  ]
+}
