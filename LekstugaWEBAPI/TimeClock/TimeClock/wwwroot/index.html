@@ -23,7 +23,8 @@
     setInterval(getTimeV1, 1000);
 
     async function getTimeV2() {
-        const result = await  fetch("/api/v1.2/clock");
+        //const result = await  fetch("/api/v1.2/clock");
+        const result = await fetch("/api/clock?v=1.2")
         const json = await result.json();
 
         document.getElementById("displayTimeV2").innerHTML = `${json.day}/${json.month} ${json.hour}:${json.minute}:${json.second}`;

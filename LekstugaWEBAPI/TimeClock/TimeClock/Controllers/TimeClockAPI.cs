@@ -4,7 +4,7 @@ using Newtonsoft.Json;
 namespace TimeClock.Controllers
 {
     [ApiController]
-    [Route("api/v{version:apiVersion}")]
+    //[Route("api/v{version:apiVersion}")]
     [Route("api")]
     public class TimeClockAPI : Controller
     {

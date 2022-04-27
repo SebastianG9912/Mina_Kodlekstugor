@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "17fadbc3-d9c7-4402-a5bd-c00e192dbd22": {
+      "ProjectGuid": "17fadbc3-d9c7-4402-a5bd-c00e192dbd22",
+      "DisplayName": "TimeClock",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
